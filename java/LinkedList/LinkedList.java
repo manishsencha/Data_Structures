@@ -19,7 +19,7 @@ public class LinkedList {
     private Node head = null, tail = null, temp;
 
     // Method to add a Node to LinkedList
-    void addNode(int x) {
+    public void addNode(int x) {
         // Created a Node with data x
         temp = new Node(x);
         // Base condition ie., the List is empty
