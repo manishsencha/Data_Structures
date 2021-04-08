@@ -48,12 +48,20 @@ public class QueueArray {
 
     // Method getFront() returns front Element of the Queue
     int getFront() {
-        return queue[front];
+        if(!isEmpty()){
+            return queue[front];
+        }
+        System.out.println("Queue is Empty!!");
+        return 0;
     }
-
+    
     // Method getRear() returns rear Element of the Queue
     int getRear() {
-        return queue[rear];
+        if(!isEmpty()){
+            return queue[rear];
+        }
+        System.out.println("Queue is Empty!!");
+        return 0;
     }
 
     // Method to print Queue
