@@ -22,6 +22,7 @@ public class Main {
         for (int i = 0; i < 10; ++i) {
             queue.enque(new Random().nextInt(1000));
         }
+        System.out.println(queue.isFull()); // true
         queue.printQueue();
     }
 }
