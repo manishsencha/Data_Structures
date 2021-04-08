@@ -8,6 +8,7 @@ public class Main {
         System.out.println(queue.isEmpty()); // true
         queue.enque(4);
         queue.enque(5);
+        System.out.println(queue.isFull()); // false
         queue.enque(6);
         System.out.println(queue.isEmpty()); // false
         queue.enque(7);
