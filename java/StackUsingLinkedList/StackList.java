@@ -1,3 +1,5 @@
+package StackUsingLinkedList;
+
 import java.util.LinkedList;
 
 // Class for stack
@@ -40,5 +42,4 @@ public class StackList {
     boolean isEmpty() {
         return llist.isEmpty();
     }
-
 }
