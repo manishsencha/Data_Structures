@@ -7,7 +7,6 @@ public class StackList {
     // Method to push Integer into Stack and return the status
     boolean push(int x) {
         try {
-
             llist.add(x);
             return true;
         } catch (Exception e) {
